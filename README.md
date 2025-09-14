@@ -1,5 +1,5 @@
 # SEEC: Segmentation-Assisted Multi-Entropy Models for Learned Lossless Image Compression
-This repo is the official implementation of the paper "SEEC: Segmentation-Assisted Multi-Entropy Models for Learned Lossless Image Compression":
+This repo is the official implementation of the paper ["SEEC: Segmentation-Assisted Multi-Entropy Models for Learned Lossless Image Compression"](https://arxiv.org/abs/2509.07704):
 
 <div align="center">
   <img src="assets/pipeline.png" />
@@ -12,8 +12,7 @@ This repo is the official implementation of the paper "SEEC: Segmentation-Assist
 
 ### Installation
 
-A suitable conda environment named seec can be created and train.py \
--- baactivated with:
+A suitable conda environment named seec can be created and activated by:
 ```
 conda create -n seec python=3.10
 conda activate seec
@@ -75,7 +74,15 @@ You can evaluate on multiple directories by specifying `--imgdir` multiple times
 python eval.py --ckpt PATH_TO_CHECKPOINT --imgdir PATH_TO_IMAGE_DIRECTORY_1 PATH_TO_IMAGE_DIRECTORY_2
 ```
 ## Citation
-
+If you find our work useful in your research, please consider citing the following paper:
+```
+@article{zheng2025seec,
+  title={SEEC: Segmentation-Assisted Multi-Entropy Models for Learned Lossless Image Compression},
+  author={Zheng, Chunhang and Ren, Zichang and Li, Dou},
+  journal={arXiv preprint arXiv:2509.07704},
+  year={2025}
+}
+```
 
 If you use our codebase, please consider also citing [DLPR](https://github.com/BYchao100/Deep-Lossy-Plus-Residual-Coding), [BiRefNet](https://github.com/ZhengPeng7/BiRefNet) and [L3C](https://github.com/fab-jul/L3C-PyTorch).
 
